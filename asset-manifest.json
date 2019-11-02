@@ -1,18 +1,18 @@
 {
   "files": {
-    "main.js": "/Random-Number/static/js/main.565cea0c.chunk.js",
-    "main.js.map": "/Random-Number/static/js/main.565cea0c.chunk.js.map",
+    "main.js": "/Random-Number/static/js/main.e98dfc0d.chunk.js",
+    "main.js.map": "/Random-Number/static/js/main.e98dfc0d.chunk.js.map",
     "runtime-main.js": "/Random-Number/static/js/runtime-main.2d960523.js",
     "runtime-main.js.map": "/Random-Number/static/js/runtime-main.2d960523.js.map",
     "static/js/2.0e187db7.chunk.js": "/Random-Number/static/js/2.0e187db7.chunk.js",
     "static/js/2.0e187db7.chunk.js.map": "/Random-Number/static/js/2.0e187db7.chunk.js.map",
     "index.html": "/Random-Number/index.html",
-    "precache-manifest.7bd489be2c19012f6276af09ac94173f.js": "/Random-Number/precache-manifest.7bd489be2c19012f6276af09ac94173f.js",
+    "precache-manifest.1b6c7364fa69697ee0b05e79d893a58e.js": "/Random-Number/precache-manifest.1b6c7364fa69697ee0b05e79d893a58e.js",
     "service-worker.js": "/Random-Number/service-worker.js"
   },
   "entrypoints": [
     "static/js/runtime-main.2d960523.js",
     "static/js/2.0e187db7.chunk.js",
-    "static/js/main.565cea0c.chunk.js"
+    "static/js/main.e98dfc0d.chunk.js"
   ]
 }
