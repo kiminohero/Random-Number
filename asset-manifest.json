@@ -1,0 +1,18 @@
+{
+  "files": {
+    "main.js": "/Random-Number/static/js/main.0a6a6c7b.chunk.js",
+    "main.js.map": "/Random-Number/static/js/main.0a6a6c7b.chunk.js.map",
+    "runtime-main.js": "/Random-Number/static/js/runtime-main.2d960523.js",
+    "runtime-main.js.map": "/Random-Number/static/js/runtime-main.2d960523.js.map",
+    "static/js/2.e7b522f9.chunk.js": "/Random-Number/static/js/2.e7b522f9.chunk.js",
+    "static/js/2.e7b522f9.chunk.js.map": "/Random-Number/static/js/2.e7b522f9.chunk.js.map",
+    "index.html": "/Random-Number/index.html",
+    "precache-manifest.c4b42ec86c1f01fa13312fa75aa2965f.js": "/Random-Number/precache-manifest.c4b42ec86c1f01fa13312fa75aa2965f.js",
+    "service-worker.js": "/Random-Number/service-worker.js"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.2d960523.js",
+    "static/js/2.e7b522f9.chunk.js",
+    "static/js/main.0a6a6c7b.chunk.js"
+  ]
+}
