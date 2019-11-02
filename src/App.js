@@ -1,6 +1,6 @@
 import React, { Component } from "react";
 import {
-  BrowserRouter as Router,
+  HashRouter as Router,
   Route,
   Switch,
   Redirect
@@ -11,7 +11,7 @@ import Play from "./components/Play";
 class App extends Component {
   render() {
     return (
-      <Router>
+      <Router basename="/">
         <div className="main">
           <h1>Generate Random Number</h1>
           <Switch>
