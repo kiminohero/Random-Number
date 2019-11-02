@@ -26,11 +26,15 @@ class Play extends Component {
   onChange = e => {
     let { value } = e.target;
     console.log();
-    if (value.length <= 6 && /^\d*$/.test(value))
+    if (value.length <= 6 && /^\d*$/.test(value)) {
       // checks if the string is numeric and not more than 6 digits
       this.setState({
         [e.target.name]: e.target.value
       });
+    } else {
+      if (value.length > 6) alert("Max input length is 6");
+      else if (!/^\d*$/.test(value)) alert("Input should be numeric only");
+    }
   };
 
   onSubmit = e => {
