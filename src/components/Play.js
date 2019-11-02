@@ -8,6 +8,7 @@ class Play extends Component {
   };
 
   compare() {
+    // Compare the two strings
     const { num } = this.state;
     let arr = num.split(""),
       str = window.localStorage.getItem("randomNumber"),
@@ -23,9 +24,13 @@ class Play extends Component {
   }
 
   onChange = e => {
-    this.setState({
-      [e.target.name]: e.target.value
-    });
+    let { value } = e.target;
+    console.log();
+    if (value.length <= 6 && /^\d*$/.test(value))
+      // checks if the string is numeric and not more than 6 digits
+      this.setState({
+        [e.target.name]: e.target.value
+      });
   };
 
   onSubmit = e => {
@@ -41,6 +46,14 @@ class Play extends Component {
       this.setState({ diff: "" });
     }
   };
+
+  // errorFinder(N) {
+  //   if(N.length > 6){
+  //     alert('Please enter a 6 digit number');
+  //   } else {
+
+  //   }
+  // }
 
   helperFunction() {
     const { num, diff } = this.state;
